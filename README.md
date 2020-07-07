@@ -1,20 +1,21 @@
-1. Clone GitHub repo for this project locally
-git clone https://github.com/blackalbino01/SimpleBlog
+## Clone GitHub repo for this project locally
 
-2. cd into your project
-cd SimpleBlog
+-```git clone https://github.com/blackalbino01/SimpleBlog```
+## cd into your project
 
-3.Install Composer Dependencies
-composer install
+-```cd SimpleBlog```
+## Install Composer Dependencies
 
-4.Install NPM Dependencies
-npm install
+-```composer install```
+## Install NPM Dependencies
 
-5.Create a copy of your .env file
-cp .env.example .env
+-```npm install```
+## Create a copy of your .env file.
 
-6. Generate an app encryption key
-php artisan key:generate
+-```cp .env.example .env```
+## Generate an app encryption key
 
-7.running development server
-php artisan serve
+-```php artisan key:generate```
+## running development server
+
+-```php artisan serve```
