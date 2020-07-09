@@ -28,3 +28,15 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Auth::routes();
+
+Route::get('/home',function () {
+    return view('index');
+}) ->name('home');
+
+Auth::routes();
+
+Route::get('/home', function () {
+    return view('index');
+})->name('home');
