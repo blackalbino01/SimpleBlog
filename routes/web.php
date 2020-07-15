@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 
-Route::get('/post', function () {
+Route::get('/blog', function () {
     return view('post');
-})->name('post');
+})->name('blog');
 
 Route::get('/about', function () {
     return view('about');
@@ -34,6 +34,8 @@ Auth::routes();
 Route::get('/home',function () {
     return view('index');
 }) ->name('home');
+
+Route::resource('posts', 'PostController');
 
 Auth::routes();
 
